@@ -11,7 +11,7 @@ from .forms import OrderForm, CreateUserForm
 
 
 def home(request):
-    return render(request,'home.html',{'name':'Sandeep'})
+    return render(request,'home.html',{'name':'Sahasra'})
 
 def add(request):
 
